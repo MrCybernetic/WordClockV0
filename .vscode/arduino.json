@@ -1,3 +1,4 @@
 {
-    "sketch": "wordclockV0\\horloge\\horloge.ino"
+    "sketch": "wordclockV0\\horloge\\horloge.ino",
+    "board": "arduino:avr:uno"
 }

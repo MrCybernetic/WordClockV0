@@ -19,11 +19,13 @@
 
 int ligne = 0;
 unsigned long lastTimeUpdate;
+bool debugMatrix = false;
+bool debugVirtualTime = false;
+
 
 void setup() {
 // Serial.begin(9600);
   //Serial.println("T1130157190317");
-  
   pinMode(latchPin, OUTPUT);
   pinMode(dataPin, OUTPUT);
   pinMode(clockPin, OUTPUT);
